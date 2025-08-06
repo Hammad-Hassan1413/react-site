@@ -2,6 +2,23 @@ import person from "./assets/person.png";
 import building from "./assets/building.png";
 import group from "./assets/group.png";
 
+const cardData = [
+  {
+    heading: "Membership Organizations",
+    text: "Our membership management software provides full automation of membership renewals and payments.",
+    image: person,
+  },
+  {
+    heading: "National Associations",
+    text: "Our national associations software helps you manage memberships, events, and payments.",
+    image: building,
+  },
+  {
+    heading: "Clubs & Groups",
+    text: "Easily manage club activities, members, and communication using our tools.",
+    image: group,
+  },
+];
 function Cards() {
   const Card = ({ heading, text, image }) => (
     <div className="card">
@@ -10,24 +27,6 @@ function Cards() {
       <p>{text}</p>
     </div>
   );
-  const cardData = [
-    {
-      heading: "Membership Organizations",
-      text: "Our membership management software provides full automation of membership renewals and payments.",
-      image: person,
-    },
-    {
-      heading: "National Associations",
-      text: "Our national associations software helps you manage memberships, events, and payments.",
-      image: building,
-    },
-    {
-      heading: "Clubs & Groups",
-      text: "Easily manage club activities, members, and communication using our tools.",
-      image: group,
-    },
-  ];
-
   return (
     <section className="cards">
       <div className="container">
