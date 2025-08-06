@@ -11,15 +11,39 @@ body {
 img {
   max-width: 100%;
 }
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 44px;
+  color: #4d4d4d;
+}
+p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #717171;
+}
+button {
+  padding: 14px 32px;
+  background-color: #4caf4f;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  width: fit-content;
+  color: white;
+}
+button:hover {
+  background-color: #43a047;
+}
 .container {
-  max-width: 1150px;
+  max-width: 1440px;
   margin: 0 auto;
   width: 100%;
 }
 header {
   display: flex;
   align-items: center;
-  height: 58px;
+  height: 84px;
 }
 .flex {
   display: flex;
@@ -33,15 +57,21 @@ header {
 }
 
 .menu {
-  flex: 2;
+  flex: 3;
   display: flex;
   justify-content: end;
 }
 
-.button {
+.buttons {
   flex: 1;
   display: flex;
   justify-content: flex-end;
+  gap: 20px;
+  align-items: center;
+}
+.login {
+  color: #4caf4f;
+  text-decoration: none;
 }
 .logo img {
   width: 150px;
@@ -56,12 +86,7 @@ nav ul li {
   transition: background-color 0.3s ease;
 }
 .request {
-  padding: 11px 22px;
-  background-color: #4caf4f;
-  border-radius: 5px;
-  border: none;
-  transition: background-color 0.3s ease;
-  font-weight: 500;
+  padding: 10px 20px;
 }
 
 nav ul li:hover {
@@ -83,15 +108,41 @@ h1 {
 .hero-flex {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 104px;
 }
 .hero-heading {
   flex: 0 0 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 .green {
   color: #43a047;
 }
 .hero-heading p {
   margin-bottom: 20px;
+}
+.hero-image img {
+  width: 391px;
+  height: 407px;
+}
+.clients {
+  padding: 40px 0px;
+  text-align: center;
+}
+.client-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.client-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+}
+.client-logos img {
+  width: 48px;
+  height: 48px;
 }

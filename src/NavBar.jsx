@@ -20,8 +20,11 @@ function NavBar() {
               </ul>
             </nav>
           </div>
-          <div className="button">
-            <button className="request">Register Now </button>
+          <div className="buttons">
+            <a href="#" className="login">
+              login
+            </a>
+            <button className="request">Sign up </button>
           </div>
         </div>
       </div>
