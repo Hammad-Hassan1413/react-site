@@ -14,29 +14,32 @@ img {
 .container {
   max-width: 1150px;
   margin: 0 auto;
+  width: 100%;
 }
 header {
-  min-height: 58px;
-  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  height: 58px;
 }
 .flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .logo {
-  flex: 0 0 20%;
+  flex: 1;
 }
 
 .menu {
-  flex: 0 0 60%;
+  flex: 2;
   display: flex;
   justify-content: end;
 }
 
 .button {
-  flex: 0 0 20%;
+  flex: 1;
   display: flex;
   justify-content: flex-end;
 }
