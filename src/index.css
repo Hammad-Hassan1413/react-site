@@ -146,3 +146,41 @@ h1 {
   width: 48px;
   height: 48px;
 }
+.cards {
+  padding: 40px 0px;
+}
+.cards-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.cards-flex {
+  display: flex;
+  gap: 127px;
+}
+.card {
+  text-align: center;
+  padding: 32px 24px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.card img {
+  width: 48px;
+  height: 48px;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 49%;
+  background: url(./assets/after.png) no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  z-index: -1;
+}
