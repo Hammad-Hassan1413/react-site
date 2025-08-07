@@ -1,7 +1,7 @@
 import iconOne from "./assets/icon1.png";
-import iconTwo from "./assets/icon2.png";
-import iconThree from "./assets/icon3.png";
-import iconFour from "./assets/icon4.png";
+import iconTwo from "./assets/Icon2.png";
+import iconThree from "./assets/Icon3.png";
+import iconFour from "./assets/Icon4.png";
 
 const iconBoxData = [
   {
