@@ -1,4 +1,4 @@
-import logoWhite from "./assets/logoWhite.png";
+import logoWhite from "./assets/Logowhite.png";
 import socialicon1 from "./assets/Social Icons1.png";
 import socialicon2 from "./assets/Social Icons2.png";
 import socialicon3 from "./assets/Social Icons3.png";
