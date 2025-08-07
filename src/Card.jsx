@@ -30,22 +30,24 @@ function Cards() {
   return (
     <section className="cards">
       <div className="container">
-        <div className="cards-heading">
-          <h2>
-            Manage your entire community
-            <br /> in a single system
-          </h2>
-          <p>Who is Nextcent suitable for?</p>
-        </div>
-        <div className="cards-flex">
-          {cardData.map((card, index) => (
-            <Card
-              key={index}
-              heading={card.heading}
-              text={card.text}
-              image={card.image}
-            />
-          ))}
+        <div className="card-section-flex">
+          <div className="cards-heading">
+            <h2>
+              Manage your entire community
+              <br /> in a single system
+            </h2>
+            <p>Who is Nextcent suitable for?</p>
+          </div>
+          <div className="cards-flex">
+            {cardData.map((card, index) => (
+              <Card
+                key={index}
+                heading={card.heading}
+                text={card.text}
+                image={card.image}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>
