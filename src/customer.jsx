@@ -1,9 +1,4 @@
-import One from "./assets/1.png";
-import Two from "./assets/2.png";
-import Three from "./assets/3.png";
-import Four from "./assets/4.png";
-import Five from "./assets/5.png";
-import Six from "./assets/6.png";
+import images from "./images";
 
 function Customer() {
   return (
@@ -31,12 +26,12 @@ function Customer() {
             <p>British Dragon Boat Racing Association</p>
             <div className="icon-buttons">
               <div className="icon-images">
-                <img src={One} alt="brand1" />
-                <img src={Two} alt="brand2" />
-                <img src={Three} alt="brand3" />
-                <img src={Four} alt="brand4" />
-                <img src={Five} alt="brand5" />
-                <img src={Six} alt="brand6" />
+                <img src={images.One} alt="brand1" />
+                <img src={images.Two} alt="brand2" />
+                <img src={images.Three} alt="brand3" />
+                <img src={images.Four} alt="brand4" />
+                <img src={images.Five} alt="brand5" />
+                <img src={images.Six} alt="brand6" />
               </div>
               <div className="icon-button">
                 <a href="#">Meet all the customers</a>
